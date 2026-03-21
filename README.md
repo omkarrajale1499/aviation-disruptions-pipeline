@@ -36,6 +36,6 @@ Our preliminary EDA revealed critical complexities in the dataset:
 The insights from our EDA prove that simple BI aggregations are insufficient. For the final phase of this project, we will build a distributed Machine Learning pipeline using **Spark MLlib**. We will execute complex spatial-temporal joins (matching specific airports to specific weather stations by the exact hour) to train a non-linear predictive model (e.g., Random Forest) capable of anticipating localized weather-driven delays.
 
 ## 👥 Team Contributors
-* **Omkar [Last Name]** - Data Engineering & Infrastructure
-* **[Teammate 2 Name]** - PySpark Development
-* **[Teammate 3 Name]** - Data Analytics & Visualization
+* **Omkar Rajale** - Data Engineering & Infrastructure
+* **Elsa Rose** - PySpark Development
+* **Kruthi Shamanna** - Data Analytics & Visualization
