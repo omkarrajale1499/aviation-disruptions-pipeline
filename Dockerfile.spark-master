@@ -1,0 +1,8 @@
+FROM bde2020/spark-master:3.3.0-hadoop3.3
+
+# The upstream Spark image is Alpine-based. PySpark ML imports numpy, so install
+# Alpine's native numpy package instead of compiling scientific Python packages
+# from source during Docker build.
+
+RUN apk update && apk add --no-cache \
+    py3-numpy
