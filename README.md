@@ -59,13 +59,10 @@ BTS flight CSVs + NOAA weather files
 │   ├── make_plots_local.py
 │   ├── make_plots.py
 │   └── requirements.txt
-├── update/
-│   ├── app.py
-│   └── IMPROVEMENTS_README.txt
-└── PROJECT_IMPLEMENTATION.md
-```
+├── app.py
+└── README.md
 
-`PROJECT_IMPLEMENTATION.md` contains the detailed implementation notes, troubleshooting history, and full explanation of each pipeline stage.
+```
 
 ## Docker Services
 
